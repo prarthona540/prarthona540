@@ -1,0 +1,20 @@
+#!/bin/bash
+pass=0
+fail=0
+read -p "Student ID: " id
+read -p "Marks 1: " m1
+read -p "Marks 2: " m2
+read -p "Marks 3: " m3
+total=$((m1+m2+m3))
+percent=$((total*100/300))
+if [ $percent -ge 40 ]; then
+ grade="PASS"
+ pass=$((pass+1))
+else
+ grade="FAIL"
+ fail=$((fail+1))
+fi
+echo "Total Marks: $total"
+echo "Percentage: $percent%"
+echo "Result: $grade"
+echo "Pass: $pass Fail: $fail"
