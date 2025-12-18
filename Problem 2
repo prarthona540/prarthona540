@@ -1,0 +1,12 @@
+#!/bin/bash
+read -p "Enter starting year: " s
+read -p "Enter ending year: " e
+count=0
+echo "Leap Years:"
+for ((y=s; y<=e; y++)); do
+ if (( (y%4==0 && y%100!=0) || (y%400==0) )); then
+ echo $y
+ count=$((count+1))
+ fi
+done
+echo "Total Leap Years = $count"
