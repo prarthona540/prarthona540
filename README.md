@@ -1,4 +1,4 @@
-<h1 align="center">Hi there 👋, I'm Prarthona Biswas</h1>
+<h1 align="center">Hi there 👋 I'm Prarthona Biswas</h1>
 <h3 align="center">Full-Stack Developer & Data Science Enthusiast</h3>
 
 <p align="center">
