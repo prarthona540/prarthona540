@@ -72,6 +72,22 @@
 
 ---
 
+### 📊 GitHub Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=prarthona540&theme=tokyonight&hide_border=true&area=true" alt="Activity Graph" />
+</p>
+
+---
+
+### 💬 Random Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote" />
+</p>
+
+---
+
 ### 🏆 GitHub Trophies
 
 <p align="center">
